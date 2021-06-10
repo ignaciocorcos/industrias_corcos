@@ -1,0 +1,20 @@
+@import '../base/colors';
+
+#clientes{
+    background-color: $bg-color-2;
+}
+.logo-cliente{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.item-logo-cliente{
+    width: 300px;
+    height: 300px;
+    margin: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}

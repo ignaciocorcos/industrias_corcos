@@ -1,0 +1,231 @@
+/*reset estilos*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* definimos estilos General para todo el HTML*/
+html {
+       font-family: 'Antonio', sans-serif;
+}
+
+h1{
+    padding: 1em 2em;
+    margin: 0em 0em 1em 0em;
+}
+
+.whatapp{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(172, 161, 161);
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 7;
+
+}
+
+.inicio {
+
+    background-color: rgb(130, 138, 138);
+    text-decoration-color: lightcoral;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.inicio p {
+   
+    justify-items: center;
+    background-color: rgb(130, 138, 138);
+    margin: 0px;
+    padding: 6em 2em;
+}
+
+.inicio iframe{
+    width: 60%;
+    background-color: black;
+    padding: 5px 70px ;
+    margin: unset;
+    
+}
+/* SERVICIO*/
+#servicios{
+    background-color: rgb(79, 83, 83);
+}
+
+.container-servicio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-servicio-item{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(100, 104, 104);
+    margin: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.container-servicio-item:hover{
+    
+        animation: changeColor 4s ;
+        transform: translate(30px 30px) ;
+        
+    }
+    @keyframes changeColor{
+    
+     0%{   
+        background-color: rgb(100, 104, 104);
+        transform: scale(1.2);
+    }
+    15%{   
+        background-color: rgb(100, 114, 114);
+        transform: scale(1.3);
+    }
+    25%{
+        transform: scale(1.4);      
+        background-color: rgb(100, 124, 124);
+    }
+    75%{
+        transform: scale(1.5);  
+        background-color: rgb(100, 134, 134);
+    }
+    100%{
+        transform: scale(1.6);
+        background-color: rgb(100, 144, 144);
+    }
+}
+
+
+/*PRODUCTOS*/
+#productos{
+    background-color: rgb(130, 138, 138);
+}
+.container-productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.item-productos{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(149 156 156);
+    margin: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex-logo clientes */
+#clientes{
+    background-color: rgb(79, 83, 83);
+}
+.logo-cliente{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.item-logo-cliente{
+    width: 300px;
+    height: 300px;
+    margin: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+/*datos*/
+
+#datos{
+    background-color: rgb(130, 138, 138) ;
+}
+#datos .mapa iframe{
+    box-sizing: border-box;
+    width: 100%;
+    height: 350px;
+    padding: 0.1em;
+    border: blanchedalmond 5px solid;
+    margin: 0;
+}
+
+/*contactos*/
+
+#contacto{
+    color: #5d6063;
+    background-color: #eaedf0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto .speaker-form-header h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+#contacto  .form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#contacto  .form-row input[ type="text"],
+#contacto  .form-row input[ type="email"] 
+{
+    background-color: #f6f7f8;
+    border: 1px solid #D6d9dc;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    
+}
+#contacto .form-row label{
+    margin: 16px 0;
+}
+#contacto .form-row {
+    margin: 16px 0;
+}
+
+#contacto .form-row input[ type="text"]:invalid,
+#contacto  .form-row input[ type="email"]:invalid {
+    border:1px solid #d55c5f; 
+    color: #d55c5f;
+    box-shadow: none;
+}
+
+
+
+@media only screen and (max-width:506px){
+.logo{
+    width: 30%;
+    justify-content: center;
+}
+}
+@media only screen and (min-width:507px) and (max-width:960px){
+    .item-logo-cliente {
+        width: 300px;
+        height: 300px;
+        margin: 0.1em;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:961px){
+
+}

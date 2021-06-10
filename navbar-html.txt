@@ -1,0 +1,32 @@
+    <nav>
+        <ul class="menu">
+            <img class="logo" src="imagen/LOGO 150x37 copia.jpg" alt="logo" width="250px">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#Servicios">Servicios</a>
+                    <ul>
+                        <li><a href="#">Ingenieria Electrica</a></li>
+                        <li><a href="#">Proyecto y Direcion</a></li>
+                        <li><a href="#">Diseño y Fabricacion</a></li>
+                        <li><a href="#"></a></li>
+                        
+                    </ul>
+                
+                </li>
+                <li><a href="#productos">Productos</a>
+                    <ul>
+                        
+                        <li><a href="#">Soldadura por punto</a></li>
+                        <li><a href="#">Soldadura por arco</a></li>
+                        <li><a href="#">Transformadores de potencia</a></li>
+                        <li><a href="#">Transformadores de aislacion</a></li>
+                        <li><a href="#">Rectificadores directos</a></li>
+                        <li><a href="#">Rectificadores con inversor</a></li>
+                        <li><a href="#">Fuentes de alta tension para ensayo</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#Contactos">Contactos</a></li>
+            
+            </ul>
+    </nav>

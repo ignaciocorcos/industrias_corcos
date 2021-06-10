@@ -1,0 +1,15 @@
+@import '../base/colors';
+
+#datos{
+    background-color: $bg-color-1 ;
+    .mapa{
+        iframe{
+            box-sizing: border-box;
+            width: 100%;
+            height: 350px;
+            padding: 0.1em;
+            border: blanchedalmond 5px solid;
+            margin: 0;
+        }
+    }
+}

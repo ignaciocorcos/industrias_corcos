@@ -1,0 +1,46 @@
+
+nav {
+position: fixed;
+background-color: green;
+width: 100%;
+}
+a {
+text-decoration:none;
+color:white;
+font-family:"Segoe UI";
+/* These were added to ensure you can mouse down to the dropdown menu without it disappearing */
+display: block;
+}
+nav ul {
+list-style: none;
+}
+.logo{
+    justify-content: right;
+}
+ul {
+display:flex;
+flex-flow:row wrap;
+justify-content:space-around;
+max-width: 100%;
+min-height: auto;
+margin: 0 auto;
+align-items:center;
+ }
+
+.menu li { /* position:relative so that the submenu can be placed relative to its parent li */
+position: relative;
+}
+
+.menu ul { /* Any Sub Menu */
+display: none;
+position: relative; /* NEW */
+box-sizing: content-box;
+background: rgb(115, 128, 0);
+}
+
+.menu li:hover ul { /* Display First Sub Menu */
+display: flex;
+flex-flow: column wrap;
+position: absolute; /* NEW */
+top: 100%; left: 0; /* Place the submenu at the bottom edge of its parent */
+}
